@@ -1,6 +1,6 @@
 import throttle from "lodash.throttle"
 
-let timerId = 0;
+let timerId
 
 const bStart = document.querySelector("[data-start]")
 const bStop = document.querySelector("[data-stop]")
